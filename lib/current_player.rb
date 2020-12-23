@@ -1,7 +1,7 @@
-def turn_count(board, turns)
+def turn_count(board)
   counter = 0
-  board.each do |turns|
-    puts "It is turn number #{turns}."
+  board.each do |space|
+    if space = "X" || space = "O"
     counter += 1
 end
 end
